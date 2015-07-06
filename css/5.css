@@ -66,6 +66,16 @@ p.signature{
   font-family: cursive;
 }
 
+p.seven{
+  font-size: xx-large;
+  }
+em{
+  font-size:120%;
+}
+
+strong{
+  font-size: 135%;
+}
 
 article{}
 *.aside{
@@ -198,7 +208,8 @@ dfn {
 h1{
   color:purple;
   font-size:2em;
-  font-family: sans-serif;
+  font-family: Arial;
+  font-weight: bolder;
   margin:0.67em 0;
   background: white;
   border: 2px solid black;
@@ -218,9 +229,12 @@ h1:first-letter{
   font-size:24px;
 }
 
-h3,h4
+h3,h4{}
 h5{
-  color:rgb(40%,40%,40%);
+  font-weight: bolder;
+  color: green;
+  font-size:24px;
+  font-family: Cursive;
 }
 h6{
   color:rgb(191,127,127);
