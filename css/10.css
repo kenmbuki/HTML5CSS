@@ -1,0 +1,495 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 50px;
+  border: 5px;
+  font-family:Comic sans;
+  background-color: #7a7a7a;
+  background-image: url(img/minion.jpg);
+  background-repeat:repeat-y;
+}
+
+ul.navbar
+
+p{
+  font-style: normal;
+  font-size: 15px;
+  margin-right: 100px;
+  }
+
+p.warn {
+  font-weight: bold;
+  }
+span.warning {
+  font-style: italic;
+  }
+p.urgent{
+    color:red;
+    }
+p.concern{
+    background:yellow;
+    margin-top: 50px;
+  }
+p.dark{
+    background-image: url(http://www.site.web/pix/stars.gif);
+    color:#333; !important;
+    }
+p.hang {
+  text-indent: 25px;
+}
+
+#last-para {
+    font-size: 2em;
+    color:silver;
+    font-weight:bold;
+  }
+
+inline{
+  color:green;
+}
+
+p.signature{
+  font-family: cursive;
+}
+
+p.seven{
+  font-size: xx-large;
+  }
+em{
+  font-size:120%;
+}
+
+p.leading {
+  font-size: 10px;
+  line-height: 150%;
+  }
+span.lower {
+  vertical-align: super;
+  }
+p.spread{
+  word-spacing:1em;
+}
+p.line{
+  text-decoration: line-through;
+  text-shadow: green 5px 0.5em;
+}
+p.punch {
+    background: white;
+    margin: 1em -1px 1em 25%;
+    border: 1px solid;
+    border-right: none;
+    text-align: center;
+    }
+p.mond {
+    background: #333;
+    color: white;
+    margin: 1em 3em -3em -3em;
+    }
+p.color{
+    border-style: solid;
+    border-color: green;
+}
+p.box{
+    border: 1px solid gray;
+    padding; 0.5em;
+}
+
+strong{
+  font-size: 110%;
+  text-transform: uppercase;
+}
+
+sideline{
+    float-left;
+    margin:10px -15px 10px 10px;
+}
+
+article{}
+*.aside{
+  color:black;
+  background:silver;
+
+  }
+
+ul {
+    margin-bottom: 15px;
+    }
+
+li {
+    margin-top: 10px;
+    margin-bottom: 15px;
+   }
+
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section{
+    display: block;
+    margin: 20px;
+    float: left;
+}
+
+aside{
+    float:right;
+}
+summary {
+  display: block;
+}
+
+div{
+  background: silver;
+  border: 1px dotted green;
+  padding:30px;
+}
+
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+a{
+  color:blue;
+}
+a:link{
+  color:blue;
+  }
+a:visited{
+  color:orange;
+  }
+a:hover {
+  color:red;
+   font-size:23px;
+  outline: 0;
+}
+a:active{
+  color:yellow;
+}
+
+#links {
+  background: aqua;
+  }
+
+
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+
+b,
+strong {
+  font-weight: bold;
+}
+
+
+dfn {
+  font-style: italic;
+}
+
+
+h1{
+  color:purple;
+  font-family: sans serif;
+  text-style: bolder
+  font-weight: bolder;
+  margin:1em 10% 0.5em 10%;
+  background: silver;
+  border: 1px solid black;
+  padding : 0.5em;
+  text-align: center;
+}
+
+h1 em {
+  color:black;
+  font-size:0.5em;}
+h2{
+  color:green;
+  clear:none;
+  font-size: 18px;}
+
+h1:first-letter{
+  font-size:24px;
+}
+
+img.sider {
+    float: left;
+    margin: 0;
+    width:100px;}
+h3 {
+    border: 1px solid gray;
+    clear: left;
+    margin-top: 15px;
+    }
+
+
+h4{
+
+}
+h5{
+  font-weight: bolder;
+  color: green;
+  font-size:24px;
+  font-family: Cursive;
+}
+h6{
+  color:rgb(191,127,127);
+}
+small{
+  font-size: 0.8em;
+}
+
+
+mark {
+  background:maroon;
+  color: #000;
+}
+
+
+small {
+  font-size: 80%;
+}
+
+p.contain {
+    position: relative;
+}
+
+p.first {
+    position: absolute;
+    top: 0;
+    left: 10;
+    width: 20%;
+    height: 10em;
+    z-index: 8;
+    }
+p.second {
+    position: absolute;
+    top: 0;
+    left: 60%;
+    width: 30%;
+    height: 5em;
+    z-index: 4;
+    }
+p.third {
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    width: 15%;
+    height: 10em;
+    z-index: 1;
+    }
+
+
+sub{
+
+}
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+div#sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 90%;
+    background: silver;
+    margin-right: 2px;
+    color: maroon;
+    }
+
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+
+img.mode1 {
+    color: gray; border-style: solid;
+    border: 1px dotted yellow;
+}
+
+img.mode2 {
+    border-color: gray; border-style: solid;
+}
+
+input.radio {color: #666;}
+input.check {color: #CCC;}
+
+
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+
+figure {
+  margin: 1em 40px;
+}
+
+
+hr {
+  box-sizing: content-box;
+  height: 1px;
+}
+
+pre {
+  overflow: auto;
+}
+
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+button {
+  overflow: visible;
+}
+
+
+button,
+select {
+  text-transform: none;
+}
+
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+
+input {
+  line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  box-sizing: content-box; /* 2 */
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+
+optgroup {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
