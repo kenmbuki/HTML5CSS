@@ -35,21 +35,52 @@
                     <li>Block Level elements - Complete box model</li>
                     <li>Seven properties of horizontal formatting</li>
                     <li>Seven properties of Vertical formatting</li>
+                    <li>Run in</li>
                 </ul>
             <div>
-                <p>Block-level elements—such as paragraphs, H1s, lists, and list elements—behave in interesting ways, sometimes predictable, sometimes surprising. <br>
+                <p style="display: run-in; border: 1px dotted; font-size: 125%;
+                    font-weight: bold;">Block-level elements—such as paragraphs, H1s, lists, and list elements—behave in interesting ways, sometimes predictable, sometimes surprising. <br>
                     There are differences in the handling of element placement along the horizontal and vertical axes, for example</p>
-
             </div>
-            <h3>Summary</h3>
-
-            <li>
-                <p>
-
+            <div id="one">
+                This text is the content of a block-level level element. Within this
+                block-level element is another block-level element. <p>Look, it's a block-level
+                paragraph.</p> Here's the rest of the DIV, which is still block-level.
+            </div>
+            <div id="two">
+                This text is the content of a block-level level element. Within this
+                block-level element is an inline element. <p>Look, it's an inline
+                paragraph.</p> Here's the rest of the DIV, which is still block-level.
+            </div>
+            <div id="three">
+                This text is the content of a block-level level element. Within this
+                block-level element is an inline-block element. <p>Look, it's an inline-block
+                paragraph.</p> Here's the rest of the DIV, which is still block-level.
+            </div>
+            <div style="color: silver;">
+                <h3 style="display: run-in; border: 3px dotted; font-size: 125%;
+                font-weight: bold;">Run-in Elements</h3>
+                <p style="border-top: 3px solid black; padding-top: 0.5em; color: black;">
+                However, there is a slight difference between run-in boxes and the markup example.
+                Even though run-in boxes are formatted as inline boxes within another element, they
+                still inherit properties from their parent element in the document, not the element
+                into which they’re placed.
                 </p>
-            </li>
+            </div>
 
-            <div id="links"><a href="8.html">Chapter 6</a>|| <a href="8.html">Chapter 8<a></div>
+
+
+            <h3>Summary</h3>
+                <p>
+                     Block-level elements are in many ways easy to
+                    understand, and affecting their layout is typically a simple task. Inline elements, on
+                    the other hand, can be tricky to manage, as a number of factors come into play—not
+                    least of which is whether the element is replaced or nonreplaced. Now that we’ve
+                    established the underpinnings of document layout, let’s turn our attention to how
+                    the various layout properties are used.
+                </p>
+
+            <div id="links"><a href="6.html">Chapter 6</a> || <a href="8.html">Chapter 8</a> </div>
         </section>
 
         <footer>
