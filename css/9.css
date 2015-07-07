@@ -15,7 +15,12 @@ body {
   margin: 50px;
   border: 5px;
   font-family:Comic sans;
+  background-color: #d8da3d;
+  background-image: url(img/minion.jpg);
+  background-repeat:repeat-y;
 }
+
+ul.navbar
 
 p{
   font-style: normal;
@@ -23,7 +28,7 @@ p{
   margin-right: 100px;
   }
 
-p.warning {
+p.warn {
   font-weight: bold;
   }
 span.warning {
@@ -37,8 +42,8 @@ p.concern{
     margin-top: 50px;
   }
 p.dark{
+    background-image: url(http://www.site.web/pix/stars.gif);
     color:#333; !important;
-    background:yellow;
     }
 p.hang {
   text-indent: 25px;
@@ -270,9 +275,18 @@ sub {
 }
 
 
-img {
-  border: 1px dotted yellow;
+img.mode1 {
+    color: gray; border-style: solid;
+    border: 1px dotted yellow;
 }
+
+img.mode2 {
+    border-color: gray; border-style: solid;
+}
+
+input.radio {color: #666;}
+input.check {color: #CCC;}
+
 
 
 svg:not(:root) {
