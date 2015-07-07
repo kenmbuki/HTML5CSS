@@ -120,6 +120,7 @@ summary {
 }
 
 div{
+  background: silver;
   border: 1px dotted green;
   padding:30px;
 }
